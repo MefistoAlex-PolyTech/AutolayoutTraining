@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52B53370F6DE1945866AC62F /* Pods_AutolayoutTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479F0C2A22B0C966E1672B80 /* Pods_AutolayoutTraining.framework */; };
+		B06D1AA829E6859900490C8A /* ConstraintPriorytiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D1AA729E6859900490C8A /* ConstraintPriorytiesViewController.swift */; };
 		B0ACDD6829E55CBF00A130BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ACDD6729E55CBF00A130BE /* AppDelegate.swift */; };
 		B0ACDD6A29E55CBF00A130BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ACDD6929E55CBF00A130BE /* SceneDelegate.swift */; };
 		B0ACDD6C29E55CBF00A130BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ACDD6B29E55CBF00A130BE /* ViewController.swift */; };
 		B0ACDD6F29E55CBF00A130BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ACDD6D29E55CBF00A130BE /* Main.storyboard */; };
 		B0ACDD7129E55CC300A130BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0ACDD7029E55CC300A130BE /* Assets.xcassets */; };
 		B0ACDD7429E55CC300A130BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ACDD7229E55CC300A130BE /* LaunchScreen.storyboard */; };
+		B0ACDD7C29E5606400A130BE /* IntroductionAutolayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ACDD7B29E5606400A130BE /* IntroductionAutolayoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		479F0C2A22B0C966E1672B80 /* Pods_AutolayoutTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutolayoutTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7497C338E9FBEA9F8F37F75E /* Pods-AutolayoutTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutTraining.release.xcconfig"; path = "Target Support Files/Pods-AutolayoutTraining/Pods-AutolayoutTraining.release.xcconfig"; sourceTree = "<group>"; };
+		B06D1AA729E6859900490C8A /* ConstraintPriorytiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintPriorytiesViewController.swift; sourceTree = "<group>"; };
 		B0ACDD6429E55CBF00A130BE /* AutolayoutTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0ACDD6729E55CBF00A130BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0ACDD6929E55CBF00A130BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		B0ACDD7029E55CC300A130BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0ACDD7329E55CC300A130BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0ACDD7529E55CC300A130BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0ACDD7B29E5606400A130BE /* IntroductionAutolayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionAutolayoutViewController.swift; sourceTree = "<group>"; };
+		CDF7C467347ADB3061ED21F9 /* Pods-AutolayoutTraining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutTraining.debug.xcconfig"; path = "Target Support Files/Pods-AutolayoutTraining/Pods-AutolayoutTraining.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B53370F6DE1945866AC62F /* Pods_AutolayoutTraining.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CCC3EA460830A5570C4C0FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDF7C467347ADB3061ED21F9 /* Pods-AutolayoutTraining.debug.xcconfig */,
+				7497C338E9FBEA9F8F37F75E /* Pods-AutolayoutTraining.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2DD87C2F0CFC94FD6A35F833 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				479F0C2A22B0C966E1672B80 /* Pods_AutolayoutTraining.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B0ACDD5B29E55CBF00A130BE = {
 			isa = PBXGroup;
 			children = (
 				B0ACDD6629E55CBF00A130BE /* AutolayoutTraining */,
 				B0ACDD6529E55CBF00A130BE /* Products */,
+				1CCC3EA460830A5570C4C0FC /* Pods */,
+				2DD87C2F0CFC94FD6A35F833 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +87,8 @@
 				B0ACDD6729E55CBF00A130BE /* AppDelegate.swift */,
 				B0ACDD6929E55CBF00A130BE /* SceneDelegate.swift */,
 				B0ACDD6B29E55CBF00A130BE /* ViewController.swift */,
+				B0ACDD7B29E5606400A130BE /* IntroductionAutolayoutViewController.swift */,
+				B06D1AA729E6859900490C8A /* ConstraintPriorytiesViewController.swift */,
 				B0ACDD6D29E55CBF00A130BE /* Main.storyboard */,
 				B0ACDD7029E55CC300A130BE /* Assets.xcassets */,
 				B0ACDD7229E55CC300A130BE /* LaunchScreen.storyboard */,
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0ACDD7829E55CC300A130BE /* Build configuration list for PBXNativeTarget "AutolayoutTraining" */;
 			buildPhases = (
+				F4F3B6C7E50F4F46E89F3909 /* [CP] Check Pods Manifest.lock */,
 				B0ACDD6029E55CBF00A130BE /* Sources */,
 				B0ACDD6129E55CBF00A130BE /* Frameworks */,
 				B0ACDD6229E55CBF00A130BE /* Resources */,
+				BD1AFE344414A27975517ED3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +165,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BD1AFE344414A27975517ED3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutolayoutTraining/Pods-AutolayoutTraining-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutolayoutTraining/Pods-AutolayoutTraining-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutolayoutTraining/Pods-AutolayoutTraining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4F3B6C7E50F4F46E89F3909 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutolayoutTraining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0ACDD6029E55CBF00A130BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B0ACDD6C29E55CBF00A130BE /* ViewController.swift in Sources */,
+				B0ACDD7C29E5606400A130BE /* IntroductionAutolayoutViewController.swift in Sources */,
+				B06D1AA829E6859900490C8A /* ConstraintPriorytiesViewController.swift in Sources */,
 				B0ACDD6829E55CBF00A130BE /* AppDelegate.swift in Sources */,
 				B0ACDD6A29E55CBF00A130BE /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +358,7 @@
 		};
 		B0ACDD7929E55CC300A130BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF7C467347ADB3061ED21F9 /* Pods-AutolayoutTraining.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +387,7 @@
 		};
 		B0ACDD7A29E55CC300A130BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7497C338E9FBEA9F8F37F75E /* Pods-AutolayoutTraining.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
