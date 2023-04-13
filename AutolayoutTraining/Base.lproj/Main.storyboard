@@ -16,34 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ncj-fU-tMK">
-                                <rect key="frame" x="44" y="396" width="75" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bZ-rj-5j0">
-                                <rect key="frame" x="173" y="396" width="75" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hb6-P3-0hZ">
-                                <rect key="frame" x="272" y="396" width="75" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iu7-zj-lsM">
+                                <rect key="frame" x="136" y="375" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="4bZ-rj-5j0" firstAttribute="width" secondItem="Ncj-fU-tMK" secondAttribute="width" id="I2b-1F-Ybt"/>
-                            <constraint firstItem="Hb6-P3-0hZ" firstAttribute="centerY" secondItem="Ncj-fU-tMK" secondAttribute="centerY" id="OEN-oG-L9M"/>
-                            <constraint firstItem="Ncj-fU-tMK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="337" id="PVm-Ag-6wx"/>
-                            <constraint firstItem="Ncj-fU-tMK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="l5k-e9-Tba"/>
-                            <constraint firstItem="4bZ-rj-5j0" firstAttribute="centerY" secondItem="Ncj-fU-tMK" secondAttribute="centerY" id="lHx-su-sT8"/>
-                            <constraint firstItem="4bZ-rj-5j0" firstAttribute="centerY" secondItem="Ncj-fU-tMK" secondAttribute="centerY" id="pE3-XW-lVz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hb6-P3-0hZ" secondAttribute="trailing" constant="46" id="qAC-u9-2JJ"/>
-                            <constraint firstItem="Hb6-P3-0hZ" firstAttribute="width" secondItem="Ncj-fU-tMK" secondAttribute="width" id="ud8-2M-nOU"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

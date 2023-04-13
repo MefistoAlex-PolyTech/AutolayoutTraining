@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		52B53370F6DE1945866AC62F /* Pods_AutolayoutTraining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 479F0C2A22B0C966E1672B80 /* Pods_AutolayoutTraining.framework */; };
 		B06D1AA829E6859900490C8A /* ConstraintPriorytiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D1AA729E6859900490C8A /* ConstraintPriorytiesViewController.swift */; };
+		B089B90529E6EC6200CA6C45 /* OrientatinBasedLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B089B90429E6EC6200CA6C45 /* OrientatinBasedLayoutViewController.swift */; };
 		B0ACDD6829E55CBF00A130BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ACDD6729E55CBF00A130BE /* AppDelegate.swift */; };
 		B0ACDD6A29E55CBF00A130BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ACDD6929E55CBF00A130BE /* SceneDelegate.swift */; };
 		B0ACDD6C29E55CBF00A130BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ACDD6B29E55CBF00A130BE /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		479F0C2A22B0C966E1672B80 /* Pods_AutolayoutTraining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutolayoutTraining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7497C338E9FBEA9F8F37F75E /* Pods-AutolayoutTraining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutolayoutTraining.release.xcconfig"; path = "Target Support Files/Pods-AutolayoutTraining/Pods-AutolayoutTraining.release.xcconfig"; sourceTree = "<group>"; };
 		B06D1AA729E6859900490C8A /* ConstraintPriorytiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintPriorytiesViewController.swift; sourceTree = "<group>"; };
+		B089B90429E6EC6200CA6C45 /* OrientatinBasedLayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientatinBasedLayoutViewController.swift; sourceTree = "<group>"; };
 		B0ACDD6429E55CBF00A130BE /* AutolayoutTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutolayoutTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0ACDD6729E55CBF00A130BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0ACDD6929E55CBF00A130BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				B0ACDD6B29E55CBF00A130BE /* ViewController.swift */,
 				B0ACDD7B29E5606400A130BE /* IntroductionAutolayoutViewController.swift */,
 				B06D1AA729E6859900490C8A /* ConstraintPriorytiesViewController.swift */,
+				B089B90429E6EC6200CA6C45 /* OrientatinBasedLayoutViewController.swift */,
 				B0ACDD6D29E55CBF00A130BE /* Main.storyboard */,
 				B0ACDD7029E55CC300A130BE /* Assets.xcassets */,
 				B0ACDD7229E55CC300A130BE /* LaunchScreen.storyboard */,
@@ -217,6 +220,7 @@
 				B06D1AA829E6859900490C8A /* ConstraintPriorytiesViewController.swift in Sources */,
 				B0ACDD6829E55CBF00A130BE /* AppDelegate.swift in Sources */,
 				B0ACDD6A29E55CBF00A130BE /* SceneDelegate.swift in Sources */,
+				B089B90529E6EC6200CA6C45 /* OrientatinBasedLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
